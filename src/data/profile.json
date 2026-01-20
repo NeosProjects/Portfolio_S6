@@ -1,0 +1,146 @@
+{
+  "personal": {
+    "firstName": "Néo",
+    "lastName": "BOUGIO",
+    "fullName": "Néo BOUGIO",
+    "title": "Développeur",
+    "email": "neobougio@gmail.com",
+    "phone": "+33 7 81 05 16 33",
+    "location": "Toulouse",
+    "description": "Étudiant en 3ᵉ année de BUT Informatique, passionné par le développement full-stack et les technologies spatiales, je suis à la recherche d'un stage où mettre mes compétences au service d'outils concrets pour la production industrielle.",
+    "shortBio": "Étudiant en 3ᵉ année de BUT Informatique, passionné par le développement full-stack et les technologies spatiales.",
+    "drivingLicense": "Permis B",
+    "vehicle": "Véhicule personnel",
+    "avatar": "/images/avatar.jpg"
+  },
+  "social": {
+    "github": "https://github.com/NeosProjects",
+    "linkedin": "https://www.linkedin.com/in/n%C3%A9o-bougio-ba6672306/",
+    "twitter": null,
+    "portfolio": null
+  },
+  "education": [
+    {
+      "id": 1,
+      "degree": "BUT Informatique",
+      "school": "Université Paul Sabatier",
+      "location": "Toulouse",
+      "startDate": "2023-09",
+      "endDate": null,
+      "current": true,
+      "description": "Actuellement en troisième année de BUT Informatique",
+      "highlights": []
+    },
+    {
+      "id": 2,
+      "degree": "Baccalauréat",
+      "school": "Lycée Déodat de Séverac",
+      "location": "Céret",
+      "startDate": "2020-09",
+      "endDate": "2023-06",
+      "current": false,
+      "description": "Mention très bien",
+      "highlights": []
+    }
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "position": "Développeur FullStack",
+      "company": "Nailit Planning",
+      "location": "Toulouse",
+      "startDate": "2025-06",
+      "endDate": null,
+      "current": true,
+      "description": "Conception et développement complet d’une application web de planification : interface dynamique Vue.js, HTML5, CSS, backend et base de données PostgreSQL, ainsi que gestion du serveur et déploiement.",
+      "tasks": [
+        "Analyse du besoin, planification, développement full-stack, déploiement et suivi."
+      ],
+      "technologies": ["Vue.js", "HTML5", "CSS", "PostgreSQL", "Docker"]
+    },
+    {
+      "id": 2,
+      "position": "Stage Analyse de données satellitaires",
+      "company": "CNRS CESBIO",
+      "location": "Toulouse",
+      "startDate": "2025-04",
+      "endDate": "2025-06",
+      "current": false,
+      "description": "Développement et mise en place d'un outil d'analyse général de données météorologiques provenant de différentes sources.",
+      "tasks": [],
+      "technologies": []
+    },
+    {
+      "id": 3,
+      "position": "Professeur de programmation",
+      "company": "Collège de l'hêtre",
+      "location": "Toulouse",
+      "startDate": "2025-01",
+      "endDate": "2025-12",
+      "current": false,
+      "description": "Cours de programmation en Python pour 6ème à 4ème, adaptation pédagogique aux besoins des élèves",
+      "tasks": [],
+      "technologies": ["Python"]
+    }
+  ],
+  "technicalSkills": {
+    "webProject": {
+      "title": "Conduite de projets web de A à Z",
+      "skills": [
+        "Analyse du besoin",
+        "Planification",
+        "Développement full-stack",
+        "Déploiement",
+        "Suivi de projet"
+      ]
+    },
+    "virtualization": {
+      "title": "Systèmes et Virtualisation",
+      "skills": [
+        "Linux (Fedora, Debian, Ubuntu)",
+        "VirtualBox, VMware, Proxmox",
+        "Docker"
+      ]
+    },
+    "frontend": {
+      "title": "Frontend",
+      "skills": ["Angular", "React", "Vue.js", "HTML5", "CSS3", "JavaScript ES6", "TypeScript"]
+    },
+    "backend": {
+      "title": "Backend",
+      "skills": ["Node.js", "API REST", "SQL", "PostgreSQL"]
+    },
+    "tools": {
+      "title": "Outils",
+      "skills": ["Git", "Docker", "Linux"]
+    }
+  },
+  "languages": [
+    {
+      "language": "Français",
+      "level": "Natif",
+      "code": "fr"
+    },
+    {
+      "language": "Anglais",
+      "level": "B2",
+      "code": "en"
+    }
+  ],
+  "interests": [
+    { "name": "Programmation et développement", "icon": "💻", "description": "Passionné par la création d’outils et d’applications fullstack." },
+    { "name": "Sciences et observation spatiale", "icon": "🪐", "description": "Passionné par l’étude de l'espace et de la physique quantique." }
+  ],
+  "stats": {
+    "yearsExperience": 3,
+    "projectsCompleted": 6,
+    "competencesCount": 6,
+    "motivation": 100
+  },
+  "meta": {
+    "siteName": "Portfolio S6",
+    "siteDescription": "Portfolio personnel de Néo BOUGIO - Développeur",
+    "cvDownloadUrl": "/documents/CV_Néo_Bougio.pdf",
+    "lastUpdated": "2026-01-20"
+  }
+}

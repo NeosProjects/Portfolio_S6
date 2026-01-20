@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "Développement Frontend",
+    "category": "Développement",
+    "icon": "🎨",
+    "description": "Maîtrise des technologies frontend modernes pour créer des interfaces utilisateur interactives et responsives.",
+    "skills": [
+      { "name": "HTML5 / CSS3", "level": 90 },
+      { "name": "JavaScript / TypeScript", "level": 85 },
+      { "name": "Vue.js", "level": 85 },
+      { "name": "React", "level": 75 },
+      { "name": "Responsive Design", "level": 90 }
+    ],
+    "details": "Au cours de mes études, j'ai développé une solide expertise en développement frontend. J'ai appris à créer des interfaces utilisateur modernes, accessibles et performantes. La maîtrise de frameworks comme Vue.js et React me permet de développer des applications web complexes et maintenables."
+  },
+  {
+    "id": 2,
+    "title": "Développement Backend",
+    "category": "Développement",
+    "icon": "⚙️",
+    "description": "Conception et développement d'APIs et de services backend robustes et scalables.",
+    "skills": [
+      { "name": "Node.js / Express", "level": 80 },
+      { "name": "PHP / Laravel", "level": 75 },
+      { "name": "Python / Django", "level": 70 },
+      { "name": "API REST", "level": 85 },
+      { "name": "GraphQL", "level": 65 }
+    ],
+    "details": "J'ai acquis des compétences solides en développement backend, me permettant de concevoir des architectures robustes et sécurisées. Je suis capable de créer des APIs performantes et bien documentées, tout en respectant les bonnes pratiques de développement."
+  },
+  {
+    "id": 3,
+    "title": "Design UI/UX",
+    "category": "Design",
+    "icon": "✏️",
+    "description": "Conception d'expériences utilisateur intuitives et d'interfaces visuellement attrayantes.",
+    "skills": [
+      { "name": "Figma", "level": 80 },
+      { "name": "Adobe XD", "level": 70 },
+      { "name": "Prototypage", "level": 75 },
+      { "name": "Design System", "level": 70 },
+      { "name": "Accessibilité", "level": 80 }
+    ],
+    "details": "La conception d'interfaces utilisateur fait partie intégrante de ma formation. J'ai appris à créer des maquettes, des prototypes interactifs et à penser l'expérience utilisateur dans son ensemble. L'accessibilité est une préoccupation constante dans mes réalisations."
+  },
+  {
+    "id": 4,
+    "title": "DevOps & Cloud",
+    "category": "Infrastructure",
+    "icon": "☁️",
+    "description": "Déploiement, automatisation et gestion d'infrastructures cloud modernes.",
+    "skills": [
+      { "name": "Docker", "level": 75 },
+      { "name": "CI/CD (GitHub Actions)", "level": 70 },
+      { "name": "Linux", "level": 80 },
+      { "name": "AWS / Azure", "level": 60 },
+      { "name": "Kubernetes", "level": 55 }
+    ],
+    "details": "J'ai développé des compétences en DevOps qui me permettent de déployer et maintenir des applications de manière professionnelle. La conteneurisation avec Docker et l'automatisation des déploiements font partie de mes pratiques quotidiennes."
+  },
+  {
+    "id": 5,
+    "title": "Base de Données",
+    "category": "Données",
+    "icon": "🗄️",
+    "description": "Conception, optimisation et administration de bases de données relationnelles et NoSQL.",
+    "skills": [
+      { "name": "MySQL / PostgreSQL", "level": 85 },
+      { "name": "MongoDB", "level": 75 },
+      { "name": "Redis", "level": 65 },
+      { "name": "Modélisation de données", "level": 80 },
+      { "name": "Optimisation SQL", "level": 75 }
+    ],
+    "details": "La gestion des données est au cœur de tout système d'information. J'ai appris à concevoir des schémas de base de données efficaces, à optimiser les requêtes et à choisir la technologie de stockage adaptée à chaque besoin."
+  },
+  {
+    "id": 6,
+    "title": "Gestion de Projet",
+    "category": "Transversal",
+    "icon": "📋",
+    "description": "Méthodologies agiles, travail en équipe et gestion du cycle de vie des projets.",
+    "skills": [
+      { "name": "Méthodologie Agile / Scrum", "level": 80 },
+      { "name": "Git / GitHub", "level": 90 },
+      { "name": "Documentation", "level": 75 },
+      { "name": "Communication", "level": 85 },
+      { "name": "Travail en équipe", "level": 90 }
+    ],
+    "details": "Au-delà des compétences techniques, j'ai développé des aptitudes en gestion de projet qui me permettent de travailler efficacement en équipe. La méthodologie agile, la communication et la documentation sont des aspects que je maîtrise et applique dans tous mes projets."
+  }
+]
