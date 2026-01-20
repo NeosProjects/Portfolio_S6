@@ -7,12 +7,18 @@
     "description": "Maîtrise des technologies frontend modernes pour créer des interfaces utilisateur interactives et responsives.",
     "skills": [
       { "name": "HTML5 / CSS3", "level": 90 },
-      { "name": "JavaScript / TypeScript", "level": 85 },
-      { "name": "Vue.js", "level": 85 },
+      { "name": "JavaScript ES6 / TypeScript", "level": 85 },
+      { "name": "Vue.js", "level": 90 },
       { "name": "React", "level": 75 },
-      { "name": "Responsive Design", "level": 90 }
+      { "name": "Angular", "level": 70 },
+      { "name": "Svelte", "level": 75 }
     ],
-    "details": "Au cours de mes études, j'ai développé une solide expertise en développement frontend. J'ai appris à créer des interfaces utilisateur modernes, accessibles et performantes. La maîtrise de frameworks comme Vue.js et React me permet de développer des applications web complexes et maintenables."
+    "progression": [
+      { "period": "BUT 1", "level": "Débutant", "description": "Découverte de HTML/CSS et des bases de JavaScript. Premiers projets statiques." },
+      { "period": "BUT 2", "level": "Intermédiaire", "description": "Apprentissage de React et Angular en cours. Premiers projets avec frameworks (Svelte pour Outfitter's)." },
+      { "period": "BUT 3", "level": "Avancé", "description": "Maîtrise de Vue.js avec des projets professionnels (Nailit Planning, Portfolio). Développement d'applications complexes et responsive." }
+    ],
+    "details": "Au cours de mes études et projets personnels, j'ai développé une solide expertise en développement frontend. J'ai appris à créer des interfaces utilisateur modernes, accessibles et performantes. La maîtrise de frameworks comme Vue.js, React, Angular et Svelte me permet de développer des applications web complexes et maintenables."
   },
   {
     "id": 2,
@@ -21,13 +27,18 @@
     "icon": "⚙️",
     "description": "Conception et développement d'APIs et de services backend robustes et scalables.",
     "skills": [
-      { "name": "Node.js / Express", "level": 80 },
-      { "name": "PHP / Laravel", "level": 75 },
-      { "name": "Python / Django", "level": 70 },
-      { "name": "API REST", "level": 85 },
-      { "name": "GraphQL", "level": 65 }
+      { "name": "Node.js", "level": 85 },
+      { "name": "PHP", "level": 80 },
+      { "name": "Python", "level": 85 },
+      { "name": "API REST", "level": 90 },
+      { "name": "SQL", "level": 85 }
     ],
-    "details": "J'ai acquis des compétences solides en développement backend, me permettant de concevoir des architectures robustes et sécurisées. Je suis capable de créer des APIs performantes et bien documentées, tout en respectant les bonnes pratiques de développement."
+    "progression": [
+      { "period": "BUT 1", "level": "Débutant", "description": "Introduction à PHP et aux bases de la programmation serveur. Premières interactions avec des bases de données." },
+      { "period": "BUT 2", "level": "Intermédiaire", "description": "Développement d'APIs REST en PHP (messagerie instantanée). Découverte de Node.js et Python." },
+      { "period": "BUT 3", "level": "Avancé", "description": "Conception d'architectures backend complètes (Nailit Planning). Maîtrise de Python pour l'analyse de données (stage CNRS)." }
+    ],
+    "details": "J'ai acquis des compétences solides en développement backend à travers mes projets professionnels et personnels. Je suis capable de concevoir des architectures robustes et de créer des APIs performantes, que ce soit en Node.js, PHP ou Python."
   },
   {
     "id": 3,
@@ -36,57 +47,112 @@
     "icon": "✏️",
     "description": "Conception d'expériences utilisateur intuitives et d'interfaces visuellement attrayantes.",
     "skills": [
-      { "name": "Figma", "level": 80 },
-      { "name": "Adobe XD", "level": 70 },
-      { "name": "Prototypage", "level": 75 },
-      { "name": "Design System", "level": 70 },
-      { "name": "Accessibilité", "level": 80 }
+      { "name": "Figma", "level": 75 },
+      { "name": "Responsive Design", "level": 90 },
+      { "name": "Accessibilité", "level": 80 },
+      { "name": "Design System", "level": 75 }
     ],
-    "details": "La conception d'interfaces utilisateur fait partie intégrante de ma formation. J'ai appris à créer des maquettes, des prototypes interactifs et à penser l'expérience utilisateur dans son ensemble. L'accessibilité est une préoccupation constante dans mes réalisations."
+    "progression": [
+      { "period": "BUT 1", "level": "Débutant", "description": "Sensibilisation à l'ergonomie web et aux principes de base du design d'interface." },
+      { "period": "BUT 2", "level": "Intermédiaire", "description": "Cours d'ergonomie web approfondis. Création de maquettes pour les projets de groupe." },
+      { "period": "BUT 3", "level": "Avancé", "description": "Application des principes UI/UX dans des projets réels (Portfolio, site du Collège). Maîtrise du responsive design." }
+    ],
+    "details": "La conception d'interfaces utilisateur fait partie intégrante de ma pratique. J'ai appris à créer des maquettes, à penser l'expérience utilisateur et à garantir l'accessibilité de mes réalisations. Le responsive design est une priorité dans tous mes projets."
   },
   {
     "id": 4,
-    "title": "DevOps & Cloud",
+    "title": "Systèmes & Virtualisation",
     "category": "Infrastructure",
-    "icon": "☁️",
-    "description": "Déploiement, automatisation et gestion d'infrastructures cloud modernes.",
+    "icon": "🖥️",
+    "description": "Administration système Linux et gestion d'environnements virtualisés.",
     "skills": [
-      { "name": "Docker", "level": 75 },
-      { "name": "CI/CD (GitHub Actions)", "level": 70 },
-      { "name": "Linux", "level": 80 },
-      { "name": "AWS / Azure", "level": 60 },
-      { "name": "Kubernetes", "level": 55 }
+      { "name": "Linux (Fedora, Debian, Ubuntu)", "level": 85 },
+      { "name": "Docker", "level": 80 },
+      { "name": "VirtualBox / VMware", "level": 80 },
+      { "name": "Proxmox", "level": 70 }
     ],
-    "details": "J'ai développé des compétences en DevOps qui me permettent de déployer et maintenir des applications de manière professionnelle. La conteneurisation avec Docker et l'automatisation des déploiements font partie de mes pratiques quotidiennes."
+    "progression": [
+      { "period": "BUT 1", "level": "Débutant", "description": "Découverte de Linux (Ubuntu) et des commandes de base. Utilisation de VirtualBox pour les TP." },
+      { "period": "BUT 2", "level": "Intermédiaire", "description": "Administration système Linux plus poussée. Introduction à Docker et à la conteneurisation." },
+      { "period": "BUT 3", "level": "Avancé", "description": "Déploiement d'applications avec Docker (Nailit Planning). Gestion de serveurs de production. Utilisation de Proxmox." }
+    ],
+    "details": "J'ai développé une expertise en administration système Linux et en virtualisation. La conteneurisation avec Docker fait partie de mes pratiques quotidiennes pour le déploiement d'applications. Je maîtrise également la gestion de machines virtuelles via VirtualBox, VMware et Proxmox."
   },
   {
     "id": 5,
     "title": "Base de Données",
     "category": "Données",
     "icon": "🗄️",
-    "description": "Conception, optimisation et administration de bases de données relationnelles et NoSQL.",
+    "description": "Conception, optimisation et administration de bases de données relationnelles.",
     "skills": [
-      { "name": "MySQL / PostgreSQL", "level": 85 },
-      { "name": "MongoDB", "level": 75 },
-      { "name": "Redis", "level": 65 },
-      { "name": "Modélisation de données", "level": 80 },
-      { "name": "Optimisation SQL", "level": 75 }
+      { "name": "PostgreSQL", "level": 90 },
+      { "name": "MySQL", "level": 85 },
+      { "name": "Modélisation de données", "level": 85 },
+      { "name": "Optimisation SQL", "level": 80 }
     ],
-    "details": "La gestion des données est au cœur de tout système d'information. J'ai appris à concevoir des schémas de base de données efficaces, à optimiser les requêtes et à choisir la technologie de stockage adaptée à chaque besoin."
+    "progression": [
+      { "period": "BUT 1", "level": "Débutant", "description": "Apprentissage du SQL et de la modélisation de données. Premiers schémas relationnels." },
+      { "period": "BUT 2", "level": "Intermédiaire", "description": "Conception de bases de données pour des projets complexes (Outfitter's, messagerie). Requêtes avancées." },
+      { "period": "BUT 3", "level": "Avancé", "description": "Administration de PostgreSQL en production (Nailit Planning). Optimisation des performances et des requêtes." }
+    ],
+    "details": "La gestion des données est au cœur de mes projets. J'ai appris à concevoir des schémas de base de données efficaces, à optimiser les requêtes SQL et à administrer des bases PostgreSQL et MySQL dans des environnements de production."
   },
   {
     "id": 6,
     "title": "Gestion de Projet",
     "category": "Transversal",
     "icon": "📋",
-    "description": "Méthodologies agiles, travail en équipe et gestion du cycle de vie des projets.",
+    "description": "Conduite de projets web de A à Z : analyse, planification, développement, déploiement et suivi.",
     "skills": [
-      { "name": "Méthodologie Agile / Scrum", "level": 80 },
+      { "name": "Analyse du besoin", "level": 85 },
+      { "name": "Planification", "level": 80 },
       { "name": "Git / GitHub", "level": 90 },
-      { "name": "Documentation", "level": 75 },
-      { "name": "Communication", "level": 85 },
-      { "name": "Travail en équipe", "level": 90 }
+      { "name": "Travail en équipe", "level": 90 },
+      { "name": "Documentation", "level": 80 }
     ],
-    "details": "Au-delà des compétences techniques, j'ai développé des aptitudes en gestion de projet qui me permettent de travailler efficacement en équipe. La méthodologie agile, la communication et la documentation sont des aspects que je maîtrise et applique dans tous mes projets."
+    "progression": [
+      { "period": "BUT 1", "level": "Débutant", "description": "Introduction à Git et au travail en équipe. Premiers projets collaboratifs encadrés." },
+      { "period": "BUT 2", "level": "Intermédiaire", "description": "Gestion de projets en équipe (Outfitter's). Méthodologies agiles. Rédaction de documentation." },
+      { "period": "BUT 3", "level": "Avancé", "description": "Gestion complète de projets en autonomie (Nailit Planning, site Collège). De l'analyse du besoin au déploiement." }
+    ],
+    "details": "J'ai conçu, développé et livré plusieurs sites web en gestion complète de projet : analyse du besoin, planification, développement full-stack, déploiement et suivi. Ces expériences m'ont appris à travailler en autonomie et en équipe sur des projets complexes."
+  },
+  {
+    "id": 7,
+    "title": "Développement de Jeux",
+    "category": "Développement",
+    "icon": "🎮",
+    "description": "Création de jeux vidéo et simulations interactives avec diverses technologies.",
+    "skills": [
+      { "name": "Kaplay (JavaScript)", "level": 75 },
+      { "name": "Pygame (Python)", "level": 80 },
+      { "name": "HTML5 Canvas", "level": 75 },
+      { "name": "Graphisme 3D / OpenGL", "level": 65 }
+    ],
+    "progression": [
+      { "period": "BUT 1", "level": "Novice", "description": "Aucune expérience en développement de jeux. Intérêt personnel pour le domaine." },
+      { "period": "BUT 2", "level": "Débutant", "description": "Premiers projets avec Pygame (Rubik's Cube 3D). Découverte d'OpenGL et du rendu 3D." },
+      { "period": "BUT 3", "level": "Intermédiaire", "description": "Création d'un jeu complet avec Kaplay (Wizzy's Trial). Publication sur itch.io." }
+    ],
+    "details": "Passionné par la création de jeux, j'ai réalisé plusieurs projets ludiques : un jeu d'arcade survival avec Kaplay et une simulation 3D de Rubik's Cube avec Pygame et OpenGL. Ces projets m'ont permis de développer des compétences en game design et en programmation graphique."
+  },
+  {
+    "id": 8,
+    "title": "Analyse de Données",
+    "category": "Données",
+    "icon": "📊",
+    "description": "Traitement, analyse et visualisation de données scientifiques.",
+    "skills": [
+      { "name": "Python (Pandas, NumPy)", "level": 85 },
+      { "name": "Matplotlib / Visualisation", "level": 80 },
+      { "name": "Traitement de données satellitaires", "level": 75 },
+      { "name": "Données météorologiques", "level": 75 }
+    ],
+    "progression": [
+      { "period": "BUT 1", "level": "Novice", "description": "Découverte de Python et des bases de la manipulation de données." },
+      { "period": "BUT 2", "level": "Débutant", "description": "Introduction aux bibliothèques d'analyse (Pandas, NumPy) en cours et projets." },
+      { "period": "BUT 3", "level": "Intermédiaire", "description": "Application professionnelle lors du stage au CESBIO - CNRS. Création d'un outil de visualisation de données météo." }
+    ],
+    "details": "Durant mon stage au CESBIO - CNRS, j'ai développé des compétences en analyse de données scientifiques. J'ai créé un outil de visualisation de données météorologiques génériques provenant de différentes sources, en utilisant Python et ses bibliothèques d'analyse de données."
   }
 ]

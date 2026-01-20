@@ -9,8 +9,6 @@
     "location": "Toulouse",
     "description": "Étudiant en 3ᵉ année de BUT Informatique, passionné par le développement full-stack et les technologies spatiales, je suis à la recherche d'un stage où mettre mes compétences au service d'outils concrets pour la production industrielle.",
     "shortBio": "Étudiant en 3ᵉ année de BUT Informatique, passionné par le développement full-stack et les technologies spatiales.",
-    "drivingLicense": "Permis B",
-    "vehicle": "Véhicule personnel",
     "avatar": "/images/avatar.jpg"
   },
   "social": {
@@ -133,8 +131,8 @@
   ],
   "stats": {
     "yearsExperience": 3,
-    "projectsCompleted": 6,
-    "competencesCount": 6,
+    "projectsCompleted": 8,
+    "competencesCount": 8,
     "motivation": 100
   },
   "meta": {

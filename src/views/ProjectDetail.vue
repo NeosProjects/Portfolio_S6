@@ -19,7 +19,13 @@
         <div class="project-layout">
           <!-- Image principale -->
           <div class="project-image-container">
-            <div class="project-image-large">
+            <img 
+              v-if="project.image" 
+              :src="project.image" 
+              :alt="project.title"
+              class="project-image-large"
+            />
+            <div v-else class="project-image-large project-image-placeholder">
               <span>🖼️</span>
             </div>
           </div>
@@ -30,7 +36,11 @@
               <h3>Informations</h3>
               <ul class="info-list">
                 <li>
-                  <span class="info-label">Date</span>
+                  <span class="info-label">Période</span>
+                  <span class="info-value period-badge">{{ project.period || project.date }}</span>
+                </li>
+                <li>
+                  <span class="info-label">Année</span>
                   <span class="info-value">{{ project.date }}</span>
                 </li>
                 <li>
@@ -75,6 +85,19 @@
           <div class="project-description">
             <h2>Description du projet</h2>
             <p>{{ project.fullDescription }}</p>
+          </div>
+
+          <!-- Ce que ce projet m'a appris -->
+          <div class="project-learnings card" v-if="project.learnings && project.learnings.length > 0">
+            <div class="card-body">
+              <h2>🎯 Ce que ce projet m'a appris</h2>
+              <ul class="learnings-list">
+                <li v-for="(learning, index) in project.learnings" :key="index">
+                  <span class="learning-icon">✓</span>
+                  <span>{{ learning }}</span>
+                </li>
+              </ul>
+            </div>
           </div>
 
           <!-- Compétences associées -->
@@ -201,9 +224,13 @@ const nextProject = computed(() => {
 
 .project-image-large {
   width: 100%;
-  height: 400px;
-  background: linear-gradient(135deg, var(--color-bg-tertiary), var(--color-bg-secondary));
+  /* height: 400px; */
+  object-fit: cover;
   border-radius: var(--radius-xl);
+}
+
+.project-image-placeholder {
+  background: linear-gradient(135deg, var(--color-bg-tertiary), var(--color-bg-secondary));
   display: flex;
   align-items: center;
   justify-content: center;
@@ -255,6 +282,14 @@ const nextProject = computed(() => {
   gap: var(--spacing-xs);
 }
 
+.period-badge {
+  background: var(--color-primary-transparent);
+  color: var(--color-primary);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border-radius: var(--radius-sm);
+  font-weight: var(--font-weight-medium);
+}
+
 .info-links {
   display: flex;
   gap: var(--spacing-md);
@@ -276,6 +311,41 @@ const nextProject = computed(() => {
 
 .project-description p {
   font-size: var(--font-size-lg);
+  line-height: var(--line-height-relaxed);
+}
+
+/* Learnings section */
+.project-learnings {
+  grid-column: 1 / -1;
+}
+
+.project-learnings h2 {
+  margin-bottom: var(--spacing-lg);
+}
+
+.learnings-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.learnings-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-md);
+  padding: var(--spacing-md);
+  background: var(--color-bg-tertiary);
+  border-radius: var(--radius-md);
+}
+
+.learning-icon {
+  color: var(--color-primary);
+  font-weight: var(--font-weight-bold);
+  flex-shrink: 0;
+}
+
+.learnings-list li span:last-child {
+  color: var(--color-text-secondary);
   line-height: var(--line-height-relaxed);
 }
 

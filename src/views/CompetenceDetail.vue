@@ -31,6 +31,33 @@
             </div>
           </div>
 
+          <!-- Progression de la compétence -->
+          <div class="competence-progression card" v-if="competence.progression">
+            <div class="card-body">
+              <h2>📈 Évolution de la compétence</h2>
+              <div class="progression-timeline">
+                <div 
+                  v-for="(step, index) in competence.progression" 
+                  :key="step.period"
+                  class="progression-step"
+                  :class="{ 'current': index === competence.progression.length - 1 }"
+                >
+                  <div class="progression-marker">
+                    <div class="progression-dot"></div>
+                    <div class="progression-line" v-if="index < competence.progression.length - 1"></div>
+                  </div>
+                  <div class="progression-content">
+                    <div class="progression-header">
+                      <span class="progression-period">{{ step.period }}</span>
+                      <span class="progression-level" :class="getLevelClass(step.level)">{{ step.level }}</span>
+                    </div>
+                    <p class="progression-description">{{ step.description }}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <!-- Niveaux de compétences -->
           <div class="competence-skills-detail card">
             <div class="card-body">
@@ -73,7 +100,13 @@
                 class="project-link card"
               >
                 <div class="project-link-image">
-                  <span>🖼️</span>
+                  <img 
+                    v-if="project.image" 
+                    :src="project.image" 
+                    :alt="project.title"
+                    class="project-link-img"
+                  />
+                  <span v-else>🖼️</span>
                 </div>
                 <div class="project-link-info">
                   <h4>{{ project.title }}</h4>
@@ -177,6 +210,13 @@ const getSkillLevelLabel = (level) => {
   if (level >= 40) return 'Débutant avancé'
   return 'Débutant'
 }
+
+const getLevelClass = (level) => {
+  const levelLower = level.toLowerCase()
+  if (levelLower.includes('avancé') || levelLower.includes('expert')) return 'level-advanced'
+  if (levelLower.includes('intermédiaire')) return 'level-intermediate'
+  return 'level-beginner'
+}
 </script>
 
 <style scoped>
@@ -219,6 +259,7 @@ const getSkillLevelLabel = (level) => {
 
 .competence-details h2,
 .competence-skills-detail h2,
+.competence-progression h2,
 .related-projects h2 {
   margin-bottom: var(--spacing-lg);
 }
@@ -227,6 +268,100 @@ const getSkillLevelLabel = (level) => {
   font-size: var(--font-size-lg);
   line-height: var(--line-height-relaxed);
   color: var(--color-text-secondary);
+  margin: 0;
+}
+
+/* Progression Timeline */
+.progression-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.progression-step {
+  display: flex;
+  gap: var(--spacing-lg);
+  padding-bottom: var(--spacing-lg);
+}
+
+.progression-step.current .progression-dot {
+  background: var(--color-primary);
+  box-shadow: 0 0 0 4px var(--color-primary-transparent);
+}
+
+.progression-step.current .progression-level {
+  background: var(--color-primary);
+  color: white;
+}
+
+.progression-marker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.progression-dot {
+  width: 16px;
+  height: 16px;
+  border-radius: var(--radius-full);
+  background: var(--color-border);
+  border: 3px solid var(--color-bg-card);
+  box-shadow: 0 0 0 2px var(--color-border);
+}
+
+.progression-line {
+  width: 2px;
+  flex: 1;
+  min-height: 40px;
+  background: var(--color-border);
+  margin-top: var(--spacing-sm);
+}
+
+.progression-content {
+  flex: 1;
+  padding-bottom: var(--spacing-md);
+}
+
+.progression-header {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  margin-bottom: var(--spacing-sm);
+}
+
+.progression-period {
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-primary);
+  font-size: var(--font-size-lg);
+}
+
+.progression-level {
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border-radius: var(--radius-sm);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-medium);
+  text-transform: uppercase;
+}
+
+.progression-level.level-beginner {
+  background: var(--color-bg-tertiary);
+  color: var(--color-text-secondary);
+}
+
+.progression-level.level-intermediate {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.progression-level.level-advanced {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.progression-description {
+  color: var(--color-text-secondary);
+  line-height: var(--line-height-relaxed);
   margin: 0;
 }
 
@@ -294,6 +429,13 @@ const getSkillLevelLabel = (level) => {
   align-items: center;
   justify-content: center;
   font-size: 2rem;
+  overflow: hidden;
+}
+
+.project-link-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .project-link-info {

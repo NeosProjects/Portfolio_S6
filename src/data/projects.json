@@ -1,74 +1,149 @@
 [
   {
     "id": 1,
-    "title": "Application E-commerce",
-    "shortDescription": "Plateforme de vente en ligne complète",
-    "fullDescription": "Développement d'une application e-commerce complète avec gestion des produits, panier d'achat, système de paiement sécurisé et interface d'administration. Le projet inclut une API REST et une interface utilisateur responsive.",
-    "image": "/images/projects/ecommerce.jpg",
-    "technologies": ["Vue.js", "Node.js", "MongoDB", "Stripe"],
-    "github": "https://github.com/username/ecommerce",
-    "demo": "https://ecommerce-demo.com",
+    "title": "Nailit Planning - SaaS de Gestion d'Entreprise",
+    "shortDescription": "Application SaaS complète de gestion d'entreprise",
+    "fullDescription": "Développement complet d'un SaaS de gestion d'entreprise incluant un module de planning, de trésorerie et de gestion des ressources. Interface dynamique et responsive avec une architecture backend robuste pour gérer les données en temps réel.",
+    "image": "/images/projects/nailit.png",
+    "technologies": ["Vue.js", "PostgreSQL", "Node.js", "Docker"],
+    "github": null,
+    "demo": "https://www.nailit-planning.com",
     "date": "2025",
-    "competenceIds": [1, 2, 5, 6]
+    "period": "BUT 3",
+    "competenceIds": [1, 2, 4, 5, 6],
+    "learnings": [
+      "Gestion complète d'un projet professionnel de A à Z",
+      "Conception d'une architecture backend scalable",
+      "Déploiement et administration d'une application en production avec Docker",
+      "Modélisation et optimisation d'une base de données PostgreSQL complexe"
+    ]
   },
   {
     "id": 2,
-    "title": "Application Mobile de Gestion",
-    "shortDescription": "Application mobile de gestion de tâches",
-    "fullDescription": "Conception et développement d'une application mobile cross-platform permettant de gérer ses tâches quotidiennes, avec synchronisation cloud, notifications et mode hors-ligne.",
-    "image": "/images/projects/mobile-app.jpg",
-    "technologies": ["React Native", "Firebase", "Redux"],
-    "github": "https://github.com/username/task-manager",
-    "demo": null,
+    "title": "Site Vitrine - Collège de l'Hêtre",
+    "shortDescription": "Site web vitrine pour un établissement scolaire",
+    "fullDescription": "Réalisation bénévole d'un site vitrine moderne et responsive pour le Collège de l'Hêtre, où je donne également des cours de programmation aux élèves. Le site présente l'établissement, ses activités et ses actualités.",
+    "image": "/images/projects/college.png",
+    "technologies": ["Vue.js", "CSS3", "Vite"],
+    "github": null,
+    "demo": "edh-showcase.vercel.app",
     "date": "2025",
-    "competenceIds": [1, 3, 4]
+    "period": "BUT 3",
+    "competenceIds": [1, 3, 6],
+    "learnings": [
+      "Communication avec un client non-technique et analyse du besoin",
+      "Création d'une interface accessible et ergonomique",
+      "Mise en pratique du responsive design pour tous les appareils"
+    ]
   },
   {
     "id": 3,
-    "title": "Dashboard Analytics",
-    "shortDescription": "Tableau de bord de visualisation de données",
-    "fullDescription": "Création d'un dashboard interactif permettant de visualiser et analyser des données complexes. Inclut des graphiques dynamiques, des filtres avancés et l'export de rapports PDF.",
-    "image": "/images/projects/dashboard.jpg",
-    "technologies": ["Vue.js", "D3.js", "Python", "PostgreSQL"],
-    "github": "https://github.com/username/dashboard",
-    "demo": "https://dashboard-demo.com",
-    "date": "2024",
-    "competenceIds": [1, 2, 5]
+    "title": "Wizzy's Trial",
+    "shortDescription": "Jeu vidéo arcade de survie en JavaScript",
+    "fullDescription": "Création d'un jeu vidéo arcade où le joueur doit survivre le plus longtemps possible face à différentes vagues d'attaques. Développé avec Kaplay, une librairie JavaScript dédiée au développement de jeux 2D.",
+    "image": "/images/projects/arcade-game.png",
+    "technologies": ["JavaScript", "Kaplay", "HTML5 Canvas"],
+    "github": "https://github.com/NeosProjects/Wizzys_Trial",
+    "demo": "https://neos-projects.itch.io/wizzys-trial",
+    "date": "2025",
+    "period": "BUT 3",
+    "competenceIds": [1, 7],
+    "learnings": [
+      "Découverte du développement de jeux vidéo avec une librairie JavaScript",
+      "Gestion des boucles de jeu, collisions et animations",
+      "Publication et distribution d'un jeu sur une plateforme (itch.io)"
+    ]
   },
   {
     "id": 4,
-    "title": "API REST Microservices",
-    "shortDescription": "Architecture microservices pour système distribué",
-    "fullDescription": "Conception et implémentation d'une architecture microservices avec Docker et Kubernetes. Mise en place de la communication inter-services, de la gestion des erreurs et du monitoring.",
-    "image": "/images/projects/microservices.jpg",
-    "technologies": ["Node.js", "Docker", "Kubernetes", "RabbitMQ"],
-    "github": "https://github.com/username/microservices",
-    "demo": null,
-    "date": "2024",
-    "competenceIds": [2, 4, 6]
+    "title": "Portfolio Personnel",
+    "shortDescription": "Ce portfolio que vous consultez",
+    "fullDescription": "Ce site que vous consultez actuellement ! Développé en Vue.js avec une architecture de données centralisée (JSON), plusieurs fichiers CSS globaux pour la cohérence visuelle, et une attention particulière à l'accessibilité et au design responsive.",
+    "image": "/images/projects/portfolio.png",
+    "technologies": ["Vue.js", "Vue Router", "CSS3", "Vite"],
+    "github": "https://github.com/NeosProjects/Portfolio_S6",
+    "demo": "/",
+    "date": "2026",
+    "period": "BUT 3",
+    "competenceIds": [1, 3, 6],
+    "learnings": [
+      "Architecture de données centralisée avec fichiers JSON",
+      "Organisation CSS modulaire pour la maintenabilité",
+      "Création d'un outil de recherche d'emploi professionnel"
+    ]
   },
   {
     "id": 5,
-    "title": "Site Web Portfolio",
-    "shortDescription": "Portfolio personnel responsive",
-    "fullDescription": "Ce site que vous consultez actuellement ! Développé en Vue.js avec une attention particulière portée à l'accessibilité, la performance et le design responsive.",
-    "image": "/images/projects/portfolio.jpg",
-    "technologies": ["Vue.js", "CSS3", "Vite"],
-    "github": "https://github.com/username/portfolio",
+    "title": "Visualisateur de Données Météo",
+    "shortDescription": "Outil d'analyse de données météorologiques",
+    "fullDescription": "Développement dans le cadre de mon stage au CESBIO - CNRS d'un visualisateur de données météorologiques générique. L'outil permet d'analyser et de visualiser des données provenant de différentes sources satellites et stations météo.",
+    "image": "/images/projects/meteo.png",
+    "technologies": ["Python", "Matplotlib", "Pandas", "NumPy"],
+    "github": null,
     "demo": null,
-    "date": "2026",
-    "competenceIds": [1, 3]
+    "date": "2025",
+    "period": "BUT 3 - Stage",
+    "competenceIds": [2, 5, 8],
+    "learnings": [
+      "Traitement et analyse de données scientifiques volumineuses",
+      "Création de visualisations de données avec Matplotlib",
+      "Travail dans un environnement de recherche (CNRS)",
+      "Manipulation de données météorologiques et satellitaires"
+    ]
   },
   {
     "id": 6,
-    "title": "Système de Réservation",
-    "shortDescription": "Plateforme de réservation en ligne",
-    "fullDescription": "Développement d'un système de réservation en ligne avec calendrier interactif, gestion des disponibilités, envoi automatique de confirmations par email et panel d'administration.",
-    "image": "/images/projects/reservation.jpg",
-    "technologies": ["PHP", "Laravel", "MySQL", "Vue.js"],
-    "github": "https://github.com/username/reservation",
-    "demo": "https://reservation-demo.com",
+    "title": "Application de Messagerie Instantanée",
+    "shortDescription": "Application web de chat en temps réel",
+    "fullDescription": "Réalisation d'une application web de messagerie instantanée permettant aux utilisateurs de communiquer en temps réel. Gestion des utilisateurs, des conversations privées et de groupe.",
+    "image": "/images/projects/messaging.png",
+    "technologies": ["PHP", "MySQL", "JavaScript", "WebSocket"],
+    "github": null,
+    "demo": null,
     "date": "2024",
-    "competenceIds": [1, 2, 5, 6]
+    "period": "BUT 2",
+    "competenceIds": [1, 2, 5],
+    "learnings": [
+      "Développement backend en PHP avec gestion des sessions",
+      "Communication en temps réel avec WebSocket",
+      "Conception d'une base de données relationnelle pour la messagerie"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Outfitter's - Réseau Social de Mode",
+    "shortDescription": "Mini réseau social de génération de tenues",
+    "fullDescription": "Projet de groupe réalisé dans le cadre du BUT Informatique. Application web responsive permettant de gérer sa garde-robe, de générer automatiquement des tenues et de les partager avec la communauté. Interface moderne et fonctionnalités sociales complètes.",
+    "image": "/images/projects/dresscode.png",
+    "technologies": ["Svelte", "PostgreSQL", "Node.js", "CSS3"],
+    "github": "https://github.com/Outfitter-s/Web",
+    "demo": null,
+    "date": "2024",
+    "period": "BUT 2",
+    "competenceIds": [1, 2, 5, 6],
+    "learnings": [
+      "Travail en équipe avec méthodologie agile",
+      "Découverte du framework Svelte",
+      "Conception d'une application sociale avec système d'utilisateurs",
+      "Coordination et répartition des tâches en équipe"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Simulation Rubik's Cube 3D",
+    "shortDescription": "Simulation 3D interactive d'un Rubik's Cube",
+    "fullDescription": "Réalisation d'une simulation 3D interactive d'un Rubik's Cube en Python. Le cube peut être manipulé en temps réel avec des rotations fluides et une interface graphique permettant de visualiser toutes les faces.",
+    "image": "/images/projects/rubiks.png",
+    "technologies": ["Python", "Pygame", "OpenGL"],
+    "github": "https://github.com/NeosProjects/GeometrieProjective",
+    "demo": null,
+    "date": "2024",
+    "period": "BUT 2",
+    "competenceIds": [2, 7],
+    "learnings": [
+      "Introduction à la programmation graphique 3D avec OpenGL",
+      "Gestion des transformations géométriques et des matrices",
+      "Création d'une interface interactive avec Pygame"
+    ]
   }
 ]

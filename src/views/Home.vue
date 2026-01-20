@@ -24,7 +24,13 @@
           </div>
           <div class="hero-visual">
             <div class="hero-image-wrapper">
-              <div class="hero-image-placeholder">
+              <img
+                v-if="profile.personal.avatar"
+                :src="profile.personal.avatar"
+                :alt="profile.personal.fullName"
+                class="hero-avatar"
+              />
+              <div v-else class="hero-image-placeholder">
                 <span>👨‍💻</span>
               </div>
               <div class="hero-decoration"></div>
@@ -438,5 +444,16 @@ const featuredProjects = computed(() => projects.slice(0, 3))
     display: inline-block;
     text-align: left;
   }
+}
+
+.hero-avatar {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: var(--radius-full);
+  box-shadow: 0 4px 32px rgba(0,0,0,0.08);
+  background: linear-gradient(135deg, var(--color-primary-transparent), var(--color-secondary));
+  position: relative;
+  z-index: 1;
 }
 </style>

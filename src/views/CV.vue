@@ -14,7 +14,13 @@
           <aside class="cv-sidebar">
             <div class="cv-profile">
               <div class="cv-avatar">
-                <span>👨‍💻</span>
+                <img
+                  v-if="profile.personal.avatar"
+                  :src="profile.personal.avatar"
+                  :alt="profile.personal.fullName"
+                  class="cv-avatar-img"
+                />
+                <span v-else>👨‍💻</span>
               </div>
               <h2>{{ profile.personal.fullName }}</h2>
               <p class="cv-title">{{ profile.personal.title }}</p>
@@ -226,6 +232,13 @@ const formatDate = (dateStr) => {
   justify-content: center;
   font-size: 3rem;
   margin: 0 auto var(--spacing-md);
+}
+
+.cv-avatar-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--radius-full);
 }
 
 .cv-profile h2 {

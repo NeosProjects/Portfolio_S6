@@ -1,7 +1,13 @@
 <template>
   <article class="project-card card">
     <div class="project-image">
-      <div class="project-image-placeholder">
+      <img 
+        v-if="project.image" 
+        :src="project.image" 
+        :alt="project.title"
+        class="project-image-img"
+      />
+      <div v-else class="project-image-placeholder">
         <span>🖼️</span>
       </div>
       <div class="project-overlay">
@@ -12,6 +18,7 @@
     </div>
     <div class="card-body">
       <div class="project-meta">
+        <span class="project-period" v-if="project.period">{{ project.period }}</span>
         <span class="project-date">{{ project.date }}</span>
       </div>
       <h3 class="project-title">{{ project.title }}</h3>
@@ -87,6 +94,17 @@ defineProps({
   overflow: hidden;
 }
 
+.project-image-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--transition-normal);
+}
+
+.project-card:hover .project-image-img {
+  transform: scale(1.05);
+}
+
 .project-image-placeholder {
   width: 100%;
   height: 100%;
@@ -117,6 +135,16 @@ defineProps({
   justify-content: space-between;
   align-items: center;
   margin-bottom: var(--spacing-sm);
+  gap: var(--spacing-sm);
+}
+
+.project-period {
+  font-size: var(--font-size-xs);
+  color: var(--color-primary);
+  background: var(--color-primary-transparent);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border-radius: var(--radius-sm);
+  font-weight: var(--font-weight-medium);
 }
 
 .project-date {
