@@ -1,158 +1,122 @@
 [
   {
     "id": 1,
-    "title": "Développement Frontend",
-    "category": "Développement",
-    "icon": "🎨",
-    "description": "Maîtrise des technologies frontend modernes pour créer des interfaces utilisateur interactives et responsives.",
+    "title": "Réaliser",
+    "category": "Compétence BUT",
+    "icon": "🔧",
+    "description": "Concevoir, coder, tester et intégrer une solution informatique pour un client.",
     "skills": [
-      { "name": "HTML5 / CSS3", "level": 90 },
-      { "name": "JavaScript ES6 / TypeScript", "level": 85 },
-      { "name": "Vue.js", "level": 90 },
-      { "name": "React", "level": 75 },
-      { "name": "Angular", "level": 70 },
-      { "name": "Svelte", "level": 75 }
+      { "name": "Architecture applicative (Design Patterns)", "level": 85 },
+      { "name": "Développement mobile (Flutter/Dart)", "level": 80 },
+      { "name": "Qualité logicielle (TDD, tests automatisés)", "level": 85 },
+      { "name": "Frameworks web (Vue.js, React, Angular)", "level": 90 },
+      { "name": "APIs REST", "level": 90 }
     ],
     "progression": [
-      { "period": "BUT 1", "level": "Débutant", "description": "Découverte de HTML/CSS et des bases de JavaScript. Premiers projets statiques." },
-      { "period": "BUT 2", "level": "Intermédiaire", "description": "Apprentissage de React et Angular en cours. Premiers projets avec frameworks (Svelte pour Outfitter's)." },
-      { "period": "BUT 3", "level": "Avancé", "description": "Maîtrise de Vue.js avec des projets professionnels (Nailit Planning, Portfolio). Développement d'applications complexes et responsive." }
+      { "period": "BUT 1", "level": "Niveau 1", "description": "Développer des applications informatiques simples. Apprentissage des bases du développement web avec HTML/CSS/JavaScript." },
+      { "period": "BUT 2", "level": "Niveau 2", "description": "Partir des exigences et aller jusqu'à une application complète. Projets avec frameworks (Outfitter's en Svelte, messagerie en PHP)." },
+      { "period": "BUT 3", "level": "Niveau 3", "description": "Adapter des applications sur un ensemble de supports. Maîtrise des architectures distribuées et du développement mobile (Easy Loc)." }
     ],
-    "details": "Au cours de mes études et projets personnels, j'ai développé une solide expertise en développement frontend. J'ai appris à créer des interfaces utilisateur modernes, accessibles et performantes. La maîtrise de frameworks comme Vue.js, React, Angular et Svelte me permet de développer des applications web complexes et maintenables."
+    "details": "Cette compétence couvre l'ensemble du cycle de développement d'une application informatique. J'ai progressé de la création d'applications simples vers des architectures complexes et distribuées, en passant par l'apprentissage des bonnes pratiques de développement et des méthodologies de test."
   },
   {
     "id": 2,
-    "title": "Développement Backend",
-    "category": "Développement",
-    "icon": "⚙️",
-    "description": "Conception et développement d'APIs et de services backend robustes et scalables.",
+    "title": "Optimiser",
+    "category": "Compétence BUT",
+    "icon": "⚡",
+    "description": "Proposer des applications informatiques optimisées en fonction de critères spécifiques.",
     "skills": [
-      { "name": "Node.js", "level": 85 },
-      { "name": "PHP", "level": 80 },
-      { "name": "Python", "level": 85 },
-      { "name": "API REST", "level": 90 },
-      { "name": "SQL", "level": 85 }
+      { "name": "Algorithmique avancée et structures de données", "level": 85 },
+      { "name": "Analyse de complexité", "level": 80 },
+      { "name": "Programmation asynchrone et concurrente", "level": 85 },
+      { "name": "Optimisation des performances", "level": 80 },
+      { "name": "Gestion mémoire", "level": 75 }
     ],
     "progression": [
-      { "period": "BUT 1", "level": "Débutant", "description": "Introduction à PHP et aux bases de la programmation serveur. Premières interactions avec des bases de données." },
-      { "period": "BUT 2", "level": "Intermédiaire", "description": "Développement d'APIs REST en PHP (messagerie instantanée). Découverte de Node.js et Python." },
-      { "period": "BUT 3", "level": "Avancé", "description": "Conception d'architectures backend complètes (Nailit Planning). Maîtrise de Python pour l'analyse de données (stage CNRS)." }
+      { "period": "BUT 1", "level": "Niveau 1", "description": "Appréhender et construire des algorithmes. Découverte des structures de données fondamentales et de la complexité algorithmique." },
+      { "period": "BUT 2", "level": "Niveau 2", "description": "Sélectionner les algorithmes appropriés. Application dans les projets (Outfitter's, Easy Loc) avec optimisation des requêtes bases de données." },
+      { "period": "BUT 3", "level": "Niveau 3", "description": "Analyser et optimiser des applications. Mise en place de solutions performantes dans des projets complexes (Architecture Distribuée)." }
     ],
-    "details": "J'ai acquis des compétences solides en développement backend à travers mes projets professionnels et personnels. Je suis capable de concevoir des architectures robustes et de créer des APIs performantes, que ce soit en Node.js, PHP ou Python."
+    "details": "L'optimisation est au cœur de mes préoccupations lors du développement. J'ai appris à analyser la complexité des algorithmes, à choisir les structures de données appropriées et à optimiser les performances des applications que je développe."
   },
   {
     "id": 3,
-    "title": "Design UI/UX",
-    "category": "Design",
-    "icon": "✏️",
-    "description": "Conception d'expériences utilisateur intuitives et d'interfaces visuellement attrayantes.",
+    "title": "Administrer",
+    "category": "Compétence BUT",
+    "icon": "🖥️",
+    "description": "Installer, configurer, mettre à disposition, maintenir en conditions opérationnelles des infrastructures.",
     "skills": [
-      { "name": "Figma", "level": 75 },
-      { "name": "Responsive Design", "level": 90 },
-      { "name": "Accessibilité", "level": 80 },
-      { "name": "Design System", "level": 75 }
+      { "name": "Administration système Linux/Windows", "level": 85 },
+      { "name": "Virtualisation et Conteneurisation (Docker)", "level": 85 },
+      { "name": "Services réseaux de base", "level": 80 },
+      { "name": "Sécurité des systèmes", "level": 75 },
+      { "name": "Déploiement d'applications", "level": 85 }
     ],
     "progression": [
-      { "period": "BUT 1", "level": "Débutant", "description": "Sensibilisation à l'ergonomie web et aux principes de base du design d'interface." },
-      { "period": "BUT 2", "level": "Intermédiaire", "description": "Cours d'ergonomie web approfondis. Création de maquettes pour les projets de groupe." },
-      { "period": "BUT 3", "level": "Avancé", "description": "Application des principes UI/UX dans des projets réels (Portfolio, site du Collège). Maîtrise du responsive design." }
+      { "period": "BUT 1", "level": "Niveau 1", "description": "Installer et configurer un poste de travail. Découverte de Linux (Ubuntu) et des commandes de base. Configuration d'environnements de développement." },
+      { "period": "BUT 2", "level": "Niveau 2", "description": "Déployer des services sur un réseau local. Introduction à Docker et aux services réseaux. Administration système plus poussée." },
+      { "period": "BUT 3", "level": "Niveau 3", "description": "Concevoir des solutions d'infrastructure distribuées. Déploiement d'applications en production avec Docker. Gestion de proxies et analyses réseau." }
     ],
-    "details": "La conception d'interfaces utilisateur fait partie intégrante de ma pratique. J'ai appris à créer des maquettes, à penser l'expérience utilisateur et à garantir l'accessibilité de mes réalisations. Le responsive design est une priorité dans tous mes projets."
+    "details": "J'ai développé une expertise complète en administration système et infrastructure. De la configuration de postes de travail à la gestion d'infrastructures distribuées, en passant par la conteneurisation et le déploiement d'applications."
   },
   {
     "id": 4,
-    "title": "Systèmes & Virtualisation",
-    "category": "Infrastructure",
-    "icon": "🖥️",
-    "description": "Administration système Linux et gestion d'environnements virtualisés.",
+    "title": "Gérer",
+    "category": "Compétence BUT",
+    "icon": "🗄️",
+    "description": "Concevoir, gérer, administrer et exploiter les données de l'entreprise.",
     "skills": [
-      { "name": "Linux (Fedora, Debian, Ubuntu)", "level": 85 },
-      { "name": "Docker", "level": 80 },
-      { "name": "VirtualBox / VMware", "level": 80 },
-      { "name": "Proxmox", "level": 70 }
+      { "name": "Modélisation (MCD/MLD)", "level": 90 },
+      { "name": "SQL avancé et NoSQL", "level": 85 },
+      { "name": "Intégrité et sécurité des données", "level": 85 },
+      { "name": "Administration de bases de données", "level": 85 },
+      { "name": "Big Data et analyse", "level": 75 }
     ],
     "progression": [
-      { "period": "BUT 1", "level": "Débutant", "description": "Découverte de Linux (Ubuntu) et des commandes de base. Utilisation de VirtualBox pour les TP." },
-      { "period": "BUT 2", "level": "Intermédiaire", "description": "Administration système Linux plus poussée. Introduction à Docker et à la conteneurisation." },
-      { "period": "BUT 3", "level": "Avancé", "description": "Déploiement d'applications avec Docker (Nailit Planning). Gestion de serveurs de production. Utilisation de Proxmox." }
+      { "period": "BUT 1", "level": "Niveau 1", "description": "Concevoir et mettre en place une base de données. Apprentissage du SQL et de la modélisation de données. Premiers schémas relationnels." },
+      { "period": "BUT 2", "level": "Niveau 2", "description": "Optimiser une base de données. Conception de bases complexes pour les projets (Outfitter's, Easy Loc). Requêtes avancées et optimisation." },
+      { "period": "BUT 3", "level": "Niveau 3", "description": "Administrer et exploiter des données complexes. Administration PostgreSQL en production. Gestion de l'intégrité et de la sécurité des données." }
     ],
-    "details": "J'ai développé une expertise en administration système Linux et en virtualisation. La conteneurisation avec Docker fait partie de mes pratiques quotidiennes pour le déploiement d'applications. Je maîtrise également la gestion de machines virtuelles via VirtualBox, VMware et Proxmox."
+    "details": "La gestion des données est centrale dans tous mes projets. J'ai évolué de la conception de bases simples vers l'administration de systèmes complexes, en intégrant les aspects de sécurité, performance et intégrité des données."
   },
   {
     "id": 5,
-    "title": "Base de Données",
-    "category": "Données",
-    "icon": "🗄️",
-    "description": "Conception, optimisation et administration de bases de données relationnelles.",
+    "title": "Conduire",
+    "category": "Compétence BUT",
+    "icon": "📋",
+    "description": "Satisfaire les besoins des utilisateurs au regard de la chaîne de valeur du client.",
     "skills": [
-      { "name": "PostgreSQL", "level": 90 },
-      { "name": "MySQL", "level": 85 },
-      { "name": "Modélisation de données", "level": 85 },
-      { "name": "Optimisation SQL", "level": 80 }
+      { "name": "Analyse des besoins", "level": 85 },
+      { "name": "Planification et suivi de projet (Agile/Scrum)", "level": 85 },
+      { "name": "Gestion de versions (Git)", "level": 90 },
+      { "name": "UX/UI Design", "level": 80 },
+      { "name": "Gestion de la qualité", "level": 80 }
     ],
     "progression": [
-      { "period": "BUT 1", "level": "Débutant", "description": "Apprentissage du SQL et de la modélisation de données. Premiers schémas relationnels." },
-      { "period": "BUT 2", "level": "Intermédiaire", "description": "Conception de bases de données pour des projets complexes (Outfitter's, messagerie). Requêtes avancées." },
-      { "period": "BUT 3", "level": "Avancé", "description": "Administration de PostgreSQL en production (Nailit Planning). Optimisation des performances et des requêtes." }
+      { "period": "BUT 1", "level": "Niveau 1", "description": "Identifier les besoins métiers des clients et des utilisateurs. Introduction à Git et aux méthodologies de projet. Premiers projets collaboratifs." },
+      { "period": "BUT 2", "level": "Niveau 2", "description": "Appliquer une démarche de suivi de projet. Gestion de projets en équipe (Outfitter's, Easy Loc). Méthodologies agiles et documentation." },
+      { "period": "BUT 3", "level": "Niveau 3", "description": "Organiser la livraison d'un projet. Gestion complète de projets en autonomie. De l'analyse du besoin au déploiement et à la maintenance." }
     ],
-    "details": "La gestion des données est au cœur de mes projets. J'ai appris à concevoir des schémas de base de données efficaces, à optimiser les requêtes SQL et à administrer des bases PostgreSQL et MySQL dans des environnements de production."
+    "details": "La conduite de projet est devenue une de mes forces principales. J'ai appris à analyser les besoins clients, à planifier et suivre des projets complexes, en utilisant les méthodologies agiles et les outils de gestion de versions."
   },
   {
     "id": 6,
-    "title": "Gestion de Projet",
-    "category": "Transversal",
-    "icon": "📋",
-    "description": "Conduite de projets web de A à Z : analyse, planification, développement, déploiement et suivi.",
+    "title": "Collaborer",
+    "category": "Compétence BUT",
+    "icon": "🤝",
+    "description": "Acquérir, développer et exploiter les aptitudes nécessaires pour travailler efficacement dans une équipe informatique.",
     "skills": [
-      { "name": "Analyse du besoin", "level": 85 },
-      { "name": "Planification", "level": 80 },
-      { "name": "Git / GitHub", "level": 90 },
+      { "name": "Méthodes Agiles", "level": 85 },
+      { "name": "Communication professionnelle", "level": 85 },
       { "name": "Travail en équipe", "level": 90 },
-      { "name": "Documentation", "level": 80 }
+      { "name": "Gestion des conflits", "level": 75 },
+      { "name": "Leadership technique", "level": 80 }
     ],
     "progression": [
-      { "period": "BUT 1", "level": "Débutant", "description": "Introduction à Git et au travail en équipe. Premiers projets collaboratifs encadrés." },
-      { "period": "BUT 2", "level": "Intermédiaire", "description": "Gestion de projets en équipe (Outfitter's). Méthodologies agiles. Rédaction de documentation." },
-      { "period": "BUT 3", "level": "Avancé", "description": "Gestion complète de projets en autonomie (Nailit Planning, site Collège). De l'analyse du besoin au déploiement." }
+      { "period": "BUT 1", "level": "Niveau 1", "description": "Identifier ses aptitudes pour travailler dans une équipe. Découverte du travail collaboratif et des premiers outils de communication en équipe." },
+      { "period": "BUT 2", "level": "Niveau 2", "description": "Situer son rôle et ses missions au sein d'une équipe. Projets en groupe structurés (Outfitter's, Easy Loc) avec répartition des rôles et responsabilités." },
+      { "period": "BUT 3", "level": "Niveau 3", "description": "Manager une équipe informatique. Prise de responsabilités dans les projets. Coordination d'équipes et animation de réunions techniques." }
     ],
-    "details": "J'ai conçu, développé et livré plusieurs sites web en gestion complète de projet : analyse du besoin, planification, développement full-stack, déploiement et suivi. Ces expériences m'ont appris à travailler en autonomie et en équipe sur des projets complexes."
-  },
-  {
-    "id": 7,
-    "title": "Développement de Jeux",
-    "category": "Développement",
-    "icon": "🎮",
-    "description": "Création de jeux vidéo et simulations interactives avec diverses technologies.",
-    "skills": [
-      { "name": "Kaplay (JavaScript)", "level": 75 },
-      { "name": "Pygame (Python)", "level": 80 },
-      { "name": "HTML5 Canvas", "level": 75 },
-      { "name": "Graphisme 3D / OpenGL", "level": 65 }
-    ],
-    "progression": [
-      { "period": "BUT 1", "level": "Novice", "description": "Aucune expérience en développement de jeux. Intérêt personnel pour le domaine." },
-      { "period": "BUT 2", "level": "Débutant", "description": "Premiers projets avec Pygame (Rubik's Cube 3D). Découverte d'OpenGL et du rendu 3D." },
-      { "period": "BUT 3", "level": "Intermédiaire", "description": "Création d'un jeu complet avec Kaplay (Wizzy's Trial). Publication sur itch.io." }
-    ],
-    "details": "Passionné par la création de jeux, j'ai réalisé plusieurs projets ludiques : un jeu d'arcade survival avec Kaplay et une simulation 3D de Rubik's Cube avec Pygame et OpenGL. Ces projets m'ont permis de développer des compétences en game design et en programmation graphique."
-  },
-  {
-    "id": 8,
-    "title": "Analyse de Données",
-    "category": "Données",
-    "icon": "📊",
-    "description": "Traitement, analyse et visualisation de données scientifiques.",
-    "skills": [
-      { "name": "Python (Pandas, NumPy)", "level": 85 },
-      { "name": "Matplotlib / Visualisation", "level": 80 },
-      { "name": "Traitement de données satellitaires", "level": 75 },
-      { "name": "Données météorologiques", "level": 75 }
-    ],
-    "progression": [
-      { "period": "BUT 1", "level": "Novice", "description": "Découverte de Python et des bases de la manipulation de données." },
-      { "period": "BUT 2", "level": "Débutant", "description": "Introduction aux bibliothèques d'analyse (Pandas, NumPy) en cours et projets." },
-      { "period": "BUT 3", "level": "Intermédiaire", "description": "Application professionnelle lors du stage au CESBIO - CNRS. Création d'un outil de visualisation de données météo." }
-    ],
-    "details": "Durant mon stage au CESBIO - CNRS, j'ai développé des compétences en analyse de données scientifiques. J'ai créé un outil de visualisation de données météorologiques génériques provenant de différentes sources, en utilisant Python et ses bibliothèques d'analyse de données."
+    "details": "La collaboration est essentielle dans tous les projets informatiques. J'ai développé mes compétences relationnelles et de leadership, apprenant à travailler efficacement en équipe et à coordonner des projets collaboratifs complexes."
   }
 ]
