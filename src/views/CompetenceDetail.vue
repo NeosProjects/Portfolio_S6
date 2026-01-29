@@ -10,9 +10,8 @@
           Retour aux compétences
         </router-link>
         <div class="competence-header-info">
-          <span class="competence-icon-large">{{ competence.icon }}</span>
           <div>
-            <span class="badge">{{ competence.category }}</span>
+            <span class="competence-icon-large">{{ competence.icon }}</span>
             <h1>{{ competence.title }}</h1>
             <p>{{ competence.description }}</p>
           </div>
@@ -236,7 +235,8 @@ const getLevelClass = (level) => {
 .competence-header-info {
   display: flex;
   gap: var(--spacing-xl);
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
 }
 
 .competence-icon-large {
